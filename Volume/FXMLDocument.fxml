@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="274.0" prefWidth="308.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxapplication7.FXMLDocumentController">
+    <children>
+        <StackPane fx:id="base" layoutY="-1.0" prefHeight="208.0" prefWidth="206.0" stylesheets="@styles.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <StackPane fx:id="knob" layoutX="67.0" layoutY="63.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onMouseDragged="#movement" prefHeight="177.0" prefWidth="162.0" rotate="14.0" stylesheets="@styles.css" AnchorPane.bottomAnchor="34.0" AnchorPane.leftAnchor="67.0" AnchorPane.rightAnchor="79.0" AnchorPane.topAnchor="63.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,57 @@
+.toggle-button
+{
+    -fx-background-color:white;
+    -fx-border-radius: 100%;
+    -fx-background-radius: 100%;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.toggle-button:selected{
+    -fx-background-color:grey;
+}
+.anchorpane
+{
+    -fx-background-image: url('steel3.png');
+}
+.button_bell
+{
+    -fx-background-image: url('bell.png');
+    -fx-background-size: 30%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.button_light
+{
+    -fx-background-image: url('light2.png');
+    -fx-background-size: 30%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+.button_phone
+{
+    -fx-background-image: url("phone.png");
+    -fx-background-size: 35%;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+}
+
+.text-field{
+    -fx-font-family: 'Seven Segment';
+    -fx-font-size: 90px;
+    -fx-background-color: black;
+    -fx-text-fill: red;
+    -fx-padding: 1px;
+}
+.button
+{
+    -fx-background-color:white;
+    -fx-border-radius: 100%;
+    -fx-background-radius: 100%;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+.button:pressed{
+    -fx-background-color:grey;
+}
